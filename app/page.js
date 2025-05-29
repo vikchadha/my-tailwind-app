@@ -110,7 +110,7 @@ export default function Home() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Contact Us</h2>
               <p className="text-gray-600">
-                Have questions? We'd love to hear from you!
+                Have questions? We&apos;d love to hear from you!
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center">
                   <svg className="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   <span className="text-gray-600">contact@example.com</span>
                 </div>
@@ -161,10 +161,6 @@ export default function Home() {
                 type="submit"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-md py-2 px-4 flex items-center justify-center"
               >
-                <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
                 Send Message
               </button>
             </form>
@@ -177,54 +173,57 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Company</h3>
-              <p className="text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <h3 className="text-xl font-semibold mb-4">Tailwind Showcase</h3>
+              <p className="text-gray-400 mb-4">
+                A modern, responsive website built with Next.js and Tailwind CSS.
               </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">About Us</a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Services</a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Legal</h3>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                <a href="#" className="text-gray-400 hover:text-white">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                   </svg>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                <a href="#" className="text-gray-400 hover:text-white">
+                  <span className="sr-only">GitHub</span>
+                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.699 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
                   </svg>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 11.5a8.385 8.385 0 01-.94 f6.364 0 00-3.441 1.872 4.731 4.731 0 01-3.413-1.872A8.385 8.385 0 013 11.5v.418a8.385 8.385 0 011.631 5.448 8.385 8.385 0 01-.94 1.789l-.343.343a4.5 4.5 0 001.802 5.546c.198.34.09.784-.23 1.012-.319.228-.883.027-1.011-.23a8.385 8.385 0 01-1.789-.94 8.385 8.385 0 015.448-1.631V21a2.25 2.25 0 002.25-2.25h4.5a2.25 2.25 0 002.25-2.25v-9.75m-6-5l3 3m0 0l3-3m-3 3V11.25" />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">Home</a></li>
+                <li><a href="#features" className="text-gray-400 hover:text-white">Features</a></li>
+                <li><a href="#pricing" className="text-gray-400 hover:text-white">Pricing</a></li>
+                <li><a href="#contact" className="text-gray-400 hover:text-white">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Legal</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Terms of Service</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Cookie Policy</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
+              <p className="text-gray-400 mb-4">Subscribe to our newsletter for the latest updates.</p>
+              <div className="flex">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="px-4 py-2 w-full rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900"
+                />
+                <button className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-md">
+                  <span className="sr-only">Subscribe</span>
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </a>
+                </button>
               </div>
             </div>
           </div>
